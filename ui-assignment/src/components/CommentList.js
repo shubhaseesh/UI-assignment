@@ -15,7 +15,8 @@ const CommentList = () => {
         />
         <div className="mx-4">
           <span className="font-light">
-            <span className="font-bold mr-2">Leslie Alexnder</span>25 minutes ago
+            <span className="font-bold mr-2">Leslie Alexnder</span>25 minutes
+            ago
           </span>
           <p>Lorem ipsum dolor sit amet, consectetur.</p>
           <span>
@@ -35,7 +36,7 @@ const CommentList = () => {
         />
         <div className="mx-4">
           <span className="font-light">
-            <span className="font-bold mr-2">Amily Clark</span>3 minutes ago
+            <span className="font-bold mr-2">Micheal Clark</span>3 minutes ago
           </span>
           <p>Dolor sit ameteiusmod consectetur adipiscing elit.</p>
           <span>

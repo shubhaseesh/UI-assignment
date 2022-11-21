@@ -6,9 +6,9 @@ const UserHeader = () => {
       <div className="">
         <img src={Image} alt="person" className="rounded-full h-14 w-14" />
       </div>
-      <div className="flex flex-col items-center p-3 text-start">
-        <h2 className="font-bold">Wade Warren</h2>
-        <h2 className="font-thin">July 17, 2018</h2>
+      <div className="flex flex-col items-center p-3 ">
+        <p className="font-bold">Wade Warren</p>
+        <p className="text-slate-700">July 17, 2018</p>
       </div>
     </div>
   );

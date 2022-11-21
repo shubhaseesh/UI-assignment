@@ -6,17 +6,18 @@ import ShowMoreBtn from "./components/ShowMoreBtn";
 
 function App() {
   return (
-    <div className="flex justify-center bg-gray-400 h-auto p-1">
-      <div>
-        <div className="bg-white h-screen m-9 p-6 rounded-2xl w-2/5 flex flex-col justify-around">
+    <div className="flex justify-center h-screen bg-gray-400 p-1">
+      <div className="bg-white p-6 rounded-2xl w-1/4 m-3 flex flex-col justify-around">
+        <div>
           <div>
             <UserHeader />
             <MainBody />
             <CommentBar />
             <CommentList />
           </div>
-          <ShowMoreBtn />
         </div>
+        <ShowMoreBtn />
+
       </div>
     </div>
   );
